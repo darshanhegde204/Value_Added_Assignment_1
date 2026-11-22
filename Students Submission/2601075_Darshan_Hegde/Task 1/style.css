@@ -1,0 +1,42 @@
+ .nav_main {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .logo {
+     display: flex;
+     align-items: center;
+     margin-left: 25px;
+ }
+
+ .nav {
+     display: flex;
+     list-style: none;
+     padding-right: 40px;
+ }
+
+ .navitem {
+     font-size: 20px;
+     margin: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .navitem_home {
+     font-size: 20px;
+     margin: 20px;
+     color: rgb(108, 56, 255);
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .stbutton {
+     margin-right: 25px;
+     border: none;
+     border-radius: 5px;
+     background-color: rgb(108, 56, 255);
+     padding: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+     color: white;
+     font-size: 20px;
+ }
