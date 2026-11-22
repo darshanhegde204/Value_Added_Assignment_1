@@ -40,3 +40,51 @@
      color: white;
      font-size: 20px;
  }
+
+ .main_section {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .left_section {
+     margin-right: 25px;
+ }
+
+ .right_section {
+     margin-left: 50px;
+     font-size: 30px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .right_section_para {
+     color: rgb(80, 80, 80);
+     font-size: 25px;
+ }
+
+ .Job_Ready {
+     color: rgb(108, 56, 255);
+ }
+
+ .start_pra_button {
+     border: none;
+     font-size: 20px;
+     background-color: rgb(108, 56, 255);
+     padding: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border-radius: 10px;
+     color: white;
+ }
+
+ .view_pro_button {
+     font-size: 20px;
+     background-color: white;
+     padding: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border-radius: 10px;
+     color: rgb(108, 56, 255);
+     border-color: rgb(108, 56, 255);
+
+ }
