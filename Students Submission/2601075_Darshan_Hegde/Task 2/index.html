@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 
 <body>
     <div class="container">
@@ -41,8 +41,105 @@
                 <p>Logout</p>
             </div>
         </div>
-        <div class="main"></div>
+        <div class="main">
+            <div class="main_head">
+                <h1>Dashboard</h1>
+                <div class="main_profile">
+                    <img src="../../../Task 2/Assets/16.png" height="35px">
+                    <img src="../../../Task 2/Assets/15.png" height="45px">
+                    <p>Darshan &#8744;</p>
+                </div>
+            </div>
+            <hr>
+            <div class="main_wel">
+                <div class="wel_left">
+                    <h2 class="wel_h1">Welcome Back, Darshan!</h2>
+                    <p class="wel_p">Continue your learning journey and complete your <br> pending assignments.</p>
+                </div>
+                <div class="wel_right">
+                    <img src="../../../Task 2/Assets/18.png" height="250px">
+                </div>
+            </div>
+            <div class="main_card">
+                <div class="card card_1">
+                    <img src="../../../Task 2/Assets/04.png" height="50px">
+                    <div>
+                        <h2>3</h2>
+                        <p>Courses</p>
+                    </div>
+                </div>
+                <div class="card card_2">
+                    <img src="../../../Task 2/Assets/03.png" height="50px">
+                    <div>
+                        <h2>12</h2>
+                        <p>Assignments</p>
+                    </div>
+                </div>
+                <div class="card card_3">
+                    <img src="../../../Task 2/Assets/02.png" height="50px">
+                    <div>
+                        <h2>78%</h2>
+                        <p>Progress</p>
+                    </div>
+                </div>
+                <div class="card card_4">
+                    <img src="../../../Task 2/Assets/01.png" height="50px">
+                    <div>
+                        <h2>5</h2>
+                        <p>Due This Week</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main_bot">
+                <div class="bot_left">
+                    <h2>Your Courses</h2>
+                    <hr>
+                    <div class="bot_left_con">
+                        <img src="../../../Task 2/Assets/01.png" height="30px">
+                        <div>
+                            <h2>Web Development</h2>
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                        <progress value="80" max="100"></progress>
+                    </div>
+                    <div class="bot_left_con"></div>
+                    <div class="bot_left_con"></div>
+                </div>
+                <div class="bot_right">
+                    <h2>Upcoming Assignments</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
     </div>
+    <style>
+        .main_bot {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            margin-top: 25px;
+            margin-left: 30px;
+            margin-right: 15px;
+        }
+
+        .bot_left {
+            flex: 1;
+            border: 1px solid;
+            border-radius: 10px;
+        }
+
+        .bot_right {
+            flex: 1;
+            border: 1px solid;
+            border-radius: 10px;
+        }
+
+        .bot_left_con {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+    </style>
 </body>
 
 </html>
